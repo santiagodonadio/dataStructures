@@ -1,0 +1,6 @@
+A queue is a first in first out (FIFO)
+
+O(1) time complexity for adding and removing an element
+
+O(n) time complexity when searching for/accessing an element
+

@@ -1,0 +1,4 @@
+Constant time - O(1) // not dependent on the input data
+Linear time - O(n) // Increases with the size of the input data
+Quadratic time - O(n^2) // comparing all values
+Logarithmic time - O(log n) // reduces the size of input each step
