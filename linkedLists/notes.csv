@@ -1,0 +1,15 @@
+Insertion and/or deletion at the beginning of the head is O(1) //only the head pointer needs to be updated
+
+Insertion and/or deletion at the end (tail) is a O(n) due to the fact you need to traverse through the entire linked list to find the second to last node
+
+Pointers:
+
+Linked lists are linked due to the fact they have pointers connecting them all together
+
+node is a space of contiguous memory, the building block of a linked list
+
+Each node has two parts
+    -self.data: stores the actual value
+    -self.next: a reference, a pointer
+
+map(function, iterable)
