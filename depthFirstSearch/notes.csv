@@ -1,0 +1,9 @@
+Three types of ways to traverse a DFS
+
+1. Pre-order
+    -From the top, going down and then from left to right
+2. In-order
+    - Left side heavy and then parent then child, then up, reapeat process
+3. Post-order  
+    - From the bottom, but can only traverse of what has been processed
+    - Need to visit all children before being processed

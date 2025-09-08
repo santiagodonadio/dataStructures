@@ -1,0 +1,7 @@
+How to Retrieve Data:
+
+DICTTTT
+
+    -hashmap.keys() # Returns all of keys from dict in a form of a list
+    -hashmap.values() # Returns all of values of the dict in a form of a list
+    -hashmap.items() # Returns a list of all of the key values pairs in form of tuples

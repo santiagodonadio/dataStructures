@@ -1,0 +1,7 @@
+Breadth-first Search
+
+Visits the tree horizonal, visits all the nodes in said row, then does the same with the following rows
+
+Underlying data structure is a queue, rather than a stack with dfs
+
+Queue - FIFO
