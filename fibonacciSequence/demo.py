@@ -42,7 +42,7 @@ def main():
         
         while True:
             
-            response = input("Do you want to enter another positionin the fibonacci sequence? (y/n) ").lower()
+            response = input("Do you want to enter another position in the fibonacci sequence? (y/n) ").lower()
                 
             if response in answers:
                 break
@@ -52,6 +52,7 @@ def main():
         # Out of while looop
         
         if response == 'n':
+            print("Exiting program...")
             break
         
             
