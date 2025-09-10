@@ -17,9 +17,9 @@ def walk(tree):
     if tree is not None:
         # print(tree)
         walk(tree.left)
-        # print(tree)
-        walk(tree.right)
         print(tree)
+        walk(tree.right)
+        # print(tree)
 
 def walk2(tree, stack):
     
@@ -41,4 +41,6 @@ def walk2(tree, stack):
 
 mytree = Node('A', Node('B', Node('D'), Node('E')), Node('C', Node('F'), Node('G')))
 
-walk(mytree)
+walk2(mytree, [])
+
+print(mytree)
