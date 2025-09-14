@@ -1,0 +1,38 @@
+Dynamic Programming - Breaks down problem into subproblems that uses the solutions found to arrive at the intial problems solution
+
+If recursion is present, then the problem can be solved using dynamic programming
+
+5 DP Indicatiors:
+
+    1. Sequential Decision-Making
+    2. Greedy Choice Property
+    3. State Transition
+    4. Path or array
+    5. Counting or Maximization/Minimization
+
+Ways to approach a dp problem:
+
+1. Top-Down (Memoization):
+    -Idea: Solve the problem recursively, but store (memoize) results of subproblems to avoid recalculating them
+    -How: Usually implemented with recursion + a hash map or array
+    -When to use: Intuitive to write for problems wehre the recurrence relation is obvious
+    -Example: Fibonacci sequence
+
+    Time Complexity: O(n) with memoization
+    Space Complexity: O(n) due to recursion stack + memo storage
+
+2. Bottom-Up (Tabulation)
+    -Idea: Solve smaller subproblems first, then build up to the solution of the larger problem iteratively
+    -How: Usually implemented with a loop and an array/table
+    -When to use: Often more space and time efficient, avoids recursion overhead
+    -Example: Fibonacci sequence
+
+    Time Complexity: O(n)
+    Space Complexity: O(n) / often reduced to O(1) with optimization 
+
+3. Space-Optimized DP
+    -Variation of a bottom-up, where you reduce the space used only if you need a few previous states
+    -Example: Fibonacci sequence
+
+    Time Complexity: O(n)
+    Space Complexity: O(1)
